@@ -11,6 +11,6 @@ docker push madjava/multi-server:$SHA
 docker push madjava/multi-worker:$SHA
 
 kubectl apply -f k8s
-kubectl set image deployments/server-deployments server=madjava/multi-server:$SHA
-kubectl set image deployments/client-deployments client=madjava/multi-client:$SHA
-kubectl set image deployments/worker-deployments worker=madjava/multi-worker:$SHA
+kubectl set image deployments/server-deployment server=madjava/multi-server:$SHA
+kubectl set image deployments/client-deployment client=madjava/multi-client:$SHA
+kubectl set image deployments/worker-deployment worker=madjava/multi-worker:$SHA
