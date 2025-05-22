@@ -1,6 +1,6 @@
 {
     "dependencies": {
-        "express": "4.16.3",
+        "express": "4.20.0",
         "nodemon": "1.18.3",
         "redis": "2.8.0",
         "pg": "8.0.3",
